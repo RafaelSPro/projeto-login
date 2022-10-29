@@ -52,16 +52,83 @@ main {
 
 #formulario{
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 
 #formulario h1 {
     text-align: center;
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 #formulario p {
     font-size: 0.8em;
     
+}
+
+.campo {
+    background-color: #5f2c82;
+    display: block;
+    margin: 5px 0px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.campo label {
+    display: none;
+}
+
+.campo span {
+    color: white;
+    padding: 0px 0px 5px 5px;
+    font-size: 1.9em;
+    width: 40px;
+
+}
+
+.campo input {
+    background-color: #5bc7c3;
+    width:calc(100% - 46px);
+    height: 100%;
+    border-radius: 8px;
+    padding-top: 6px;
+    transform: translate(-10) ;
+
+}
+
+input[type=submit] {
+    background-color: #2b6b69 ;
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 1em;
+}
+
+input[type=submit]:hover {
+    background-color: #5bc7c3 ;
+    
+}
+
+a.botao{
+    display: block;
+    background-color: #2b6b69 ;
+    width: 100%;
+    color: white;
+    height: 37px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 5px;
+    
+}
+
+a.botao:hover {
+    background-color: #5bc7c3 ;
 }

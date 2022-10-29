@@ -25,6 +25,12 @@ Grandes telas: acima de 1200px
         height: 100%;
     }
 
+    #formulario {
+        float:right ;
+        width: 60%;
+    }
+   
+
     
 }
 
@@ -41,5 +47,10 @@ Grandes telas: acima de 1200px
         float: right;
         width: 40%;
         height: 100%;
+    }
+
+    #formulario {
+        float:right ;
+        width: 60%;
     }
 }
