@@ -97,6 +97,10 @@ main {
 
 }
 
+.campo input:focus {
+    background-color: white;
+}
+
 input[type=submit] {
     background-color: #2b6b69 ;
     display: block;
