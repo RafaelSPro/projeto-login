@@ -20,19 +20,19 @@
                 <p>Seja bem-vindo(a) novamente. Faça o login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
 
               
-               <form action="cadastro.php" method="post">
+               <form action="cadastro.php" method="post" autocomplete="on">
                    <div class="campo">
                     <span class="material-symbols-outlined">
                         mail
                         </span>
-                    <input type="email" name="email" id="iemail">
+                    <input type="email" name="email" id="iemail" required placeholder="Digite seu email" maxlength="15" autocomplete="email">
                     <label for="iemail">Email</label>
                    </div>
                    <div class="campo">
                     <span class="material-symbols-outlined">
                         lock
                         </span>
-                    <input type="password" name="senha" id="isenha">
+                    <input type="password" name="senha" id="isenha" requerid placeholder="sua senha" minlength="8" maxlength="15" autocomplete="senha">
                     <label for="isenha">Senha</label>
                    </div>
                    <input type="submit" value="Entrar">
